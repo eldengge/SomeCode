@@ -9,7 +9,7 @@ public class SortTest {
 		int[] array1 = new int[100000000];
 		int[] array2 = new int[array1.length];
 		for (int i = 0; i < array1.length; i++) {
-			array1[i] = ran.nextInt(110000000);
+			array1[i] = ran.nextInt(array1.length+1);
 			array2[i] = array1[i];
 		}
 		long begin;
